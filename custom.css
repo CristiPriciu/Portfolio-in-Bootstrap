@@ -29,7 +29,7 @@ p {
 #socialmedia {
 	text-align: center;
 	padding-top: 45px;
-	padding-bottom: 35px;
+	padding-bottom: 50px;
 }
 
 #socialmedialinks {
@@ -37,17 +37,48 @@ p {
 }
 
 #portfoliorow {
-    padding-top: 30px;
+	padding-top: 30px;
 }
 
 #mainpicdiv {
 	position: relative;
-    padding-top: 10%;
-    padding-bottom: 10%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 #titletext {
 	position: relative;
-    padding-top: 10%;
-    padding-bottom: 10%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+#page3 {
+	padding-top: 50px
+	padding-bottom: 50px;
+}
+
+#contactmetext {
+	padding-bottom: 5%;
+}
+
+#contact {
+	padding-top: 30px;
+}
+
+#contactform {
+	padding-bottom: 10%;
+}
+
+.google-maps {
+	position: relative;
+	padding-bottom: 33%; // This is the aspect ratio
+	height: 0;
+	overflow: hidden;
+}
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
 }
