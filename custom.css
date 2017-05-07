@@ -4,6 +4,12 @@ body {
 
 p {
 	text-align: justify;
+	font-family: 'Open Sans';
+	font-size: 17px;
+}
+
+a {
+	font-family: 'Open Sans';
 }
 
 /* Brand and links alignment */
